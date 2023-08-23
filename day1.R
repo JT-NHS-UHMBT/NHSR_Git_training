@@ -42,4 +42,8 @@ usethis::pr_push()
 # Get back to main branch and pull chnages from main
 usethis::pr_pause()
 
+# Get back to a branch
+usethis::pr_fetch(1)
 
+# Tidy up pull request
+usethis::pr_finish()
