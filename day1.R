@@ -34,5 +34,16 @@ usethis::pr_init("new_work")
 gert::git_add('.')
 
 # Commit staged files with message
-gert::git_commit(message = "First commit for quarto document")
+gert::git_commit(message = "Removed .qmd files from .gitignore")
 
+# Push to the remote (GitHub)
+usethis::pr_push()
+
+# Get back to main branch and pull chnages from main
+usethis::pr_pause()
+
+# Get back to a branch
+usethis::pr_fetch(1)
+
+# Tidy up pull request
+usethis::pr_finish()
