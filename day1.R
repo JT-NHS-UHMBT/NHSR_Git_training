@@ -45,5 +45,22 @@ usethis::pr_pause()
 # Get back to a branch
 usethis::pr_fetch(1)
 
-# Tidy up pull request
+# Tidy up after pull request on GitHub
 usethis::pr_finish()
+
+
+# Ex.
+# Change author name in quarto doc.
+
+# Create new branch
+usethis::pr_init("author_change")
+
+# Replace the author in the Quarto YAML with author: Person A and Render
+
+# Commit changes
+gert::git_commit_all("Added Person A as author")
+
+# Push changes
+usethis::pr_push()
+
+# In GitHub create a pull request to main using Merge pull request and do the merge
