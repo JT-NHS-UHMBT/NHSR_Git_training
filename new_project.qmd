@@ -1,6 +1,6 @@
 ---
 title: "My work"
-author: "Person A"
+author: Person B
 format: html
 editor: visual
 embed-resources: true
