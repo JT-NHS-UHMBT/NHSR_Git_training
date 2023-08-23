@@ -1,6 +1,6 @@
 ---
 title: "My work"
-author: "Jake Tufts"
+author: "Person A"
 format: html
 editor: visual
 embed-resources: true
